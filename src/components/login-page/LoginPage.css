@@ -1,0 +1,77 @@
+.loginPage {
+  height: 100vh;
+  /* background-image: url("https://download.hipwallpaper.com/desktop/1920/1080/98/21/dUyCkp.jpg"); */
+  /* background-image: url("https://www.bajajfinservmarkets.in/content/dam/emistoremarketplace/index/20-02-2020/netflix/Netflix-Banner_1080x419.jpg?impolicy=pqmedium"); */
+  background-image: url("../../img/netflix-login-background-2.jpg");
+  background-position: center;
+  background-size: cover;
+
+  /* background-image: url("https://hitechdroid.com/wp-content/uploads/2020/04/netflix-account-2048x1248.jpg");
+  background-position: center;
+  background-size: contain; */
+}
+
+.loginPage__logo {
+  width: 10rem;
+  height: 10rem;
+  object-fit: contain;
+  margin-top: -1rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.loginPage__form {
+  background-color: rgba(0, 0, 0, 0.85);
+  max-width: 15rem;
+  min-height: 60vh;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 2rem;
+  padding-inline: 5rem;
+  margin-inline: auto;
+}
+
+.loginPage__form h1 {
+  color: #fff;
+  margin-inline: auto;
+}
+
+.loginPage__form input {
+  width: 100%;
+  background: #333333;
+  padding: 0.9rem 0.9rem;
+  border-radius: 0.3rem;
+  border: none;
+  margin-bottom: 0.5rem;
+}
+
+.loginPage__link {
+  background-color: #b42128;
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 0.8rem 0.9rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  transition: all 0.2s ease;
+}
+
+.loginPage__link:hover {
+  background-color: #e61e25;
+}
+
+.loginPage__backlink {
+  text-decoration: none;
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+
+.loginPage__backlink:hover {
+  text-decoration: underline;
+}

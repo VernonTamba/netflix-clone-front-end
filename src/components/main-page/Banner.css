@@ -1,0 +1,86 @@
+.banner {
+  height: 80vh;
+  color: #fff;
+}
+
+.banner__content {
+  height: 37vh;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
+.banner__content h1 {
+  font-size: 4rem;
+  margin: 0;
+  margin-top: 0.5rem;
+  text-shadow: 3px 3px #141414;
+  line-height: 1;
+  /* width: 50%; */
+}
+
+.banner__content p {
+  width: 35em;
+  margin: 0;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  text-shadow: 0.5px 0.5px #141414;
+}
+
+.banner__content button {
+  position: relative;
+  margin-top: 2rem;
+  margin-right: 1.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.banner__buttonLeft {
+  background-color: #ffffff;
+  padding: 0.7em 2rem 0.7rem 3.3em;
+}
+
+.banner__buttonRight {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: white;
+  padding: 0.7em 1.5rem 0.7rem 4.1em;
+}
+
+.banner__buttonLeft:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.banner__buttonRight:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.banner__buttonIcons {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+  font-size: 2rem !important;
+}
+
+.banner--fadeTop {
+  height: 7.4rem;
+  background-image: linear-gradient(
+    0,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+
+.banner--fadeBottom {
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
