@@ -2,6 +2,7 @@ import React from "react";
 import "./LandingPage.css";
 import { Link } from "react-router-dom";
 import logo from "../../logo.svg";
+import NetflixLogo from "../../img/netflix-landing-page-bg.png";
 
 const LandingPage = () => {
   return (
@@ -19,11 +20,7 @@ const LandingPage = () => {
           </Link>
         </div>
       </div>
-      <img
-        className="landingPage__logo"
-        src="https://proofmart.com/wp-content/uploads/2021/06/598-2-1-2048x1365.png"
-        alt="Netflix Logo"
-      />
+      <img className="landingPage__logo" src={NetflixLogo} alt="Netflix Logo" />
     </div>
   );
 };
