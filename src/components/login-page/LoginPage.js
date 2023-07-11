@@ -11,7 +11,7 @@ const LoginPage = () => {
         alt="Netflix Logo"
       />
       {/* div can be changed to form */}
-      <div className="loginPage__form">
+      <form className="loginPage__form">
         <h1>Sign in</h1>
         <input type="text" placeholder="Email or phone number" />
         <input type="password" placeholder="Password" />
@@ -22,7 +22,7 @@ const LoginPage = () => {
         <Link className="loginPage__backlink" to="/">
           Back
         </Link>
-      </div>
+      </form>
     </div>
   );
 };
